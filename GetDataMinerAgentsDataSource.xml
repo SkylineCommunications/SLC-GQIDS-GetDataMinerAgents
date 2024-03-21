@@ -5,7 +5,7 @@
 	<Type>Automation</Type>
 	<Author>SKYLINE2\Matthias Declerck</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder></Folder>
+	<Folder>GQI Data Sources</Folder>
 
 	<Protocols>
 	</Protocols>
@@ -20,6 +20,8 @@
 		<Exe id="1" type="csharp">
 			<Value><![CDATA[[Project:GetDataMinerAgentsDataSource_1]]]></Value>
 			<!--<Param type="debug">true</Param>-->
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">Get DataMiner Agents</Param>
 			<Message></Message>
 		</Exe>
 	</Script>
